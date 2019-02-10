@@ -1,6 +1,6 @@
 # Rick USBley
 
-A Stupid hackathon hack that's never gonna give you up.
+A (failed) [Stupid hackathon](https://www.stupidhackathon.se/) hack that's never gonna give you up.
 
 
 ## How does it work?
@@ -11,6 +11,13 @@ It's a small Arduino running a custom firmware using the [LUFA framework](http:/
 ## librick
 
 A small portable, fixed point rickrolling synth library, takes a sample rate and provides a stream of 8 bit audio samples.
+
+
+## What failed
+
+Getting stable audio stream without glitches or from the USB driver was way more difficult than expected, more work is needed.
+
+And doing just a bit more computation than the bare minimum during rendering seems to really break playback.
 
 
 ## Hardware
